@@ -1457,7 +1457,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = origin.Originality;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/fanzz/Documents/SwiftCode/毕设/Originality/Originality/Resource/Config/Originality-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/fanzz/Documents/SwiftCode/designForUnivercity/Originality/Originality/Resource/Config/Originality-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VALID_ARCHS = "armv7 armv7s";
 			};
@@ -1519,7 +1519,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = origin.Originality;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/fanzz/Documents/SwiftCode/毕设/Originality/Originality/Resource/Config/Originality-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/fanzz/Documents/SwiftCode/designForUnivercity/Originality/Originality/Resource/Config/Originality-Bridging-Header.h";
 				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;

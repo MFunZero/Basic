@@ -1,17 +1,20 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0F5BFF40105B50BD6768A6DC656E8692270C9ACF+++F8A6969",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "09BAAF7628FCDA5833E4481A447125463668294D+++4CEA40F" : 0,
     "09BAAF7628FCDA5833E4481A447125463668294D+++E0BBB7A" : 0,
-    "09BAAF7628FCDA5833E4481A447125463668294D+++0B8A9A6" : 0
+    "09BAAF7628FCDA5833E4481A447125463668294D+++0B8A9A6" : 0,
+    "0F5BFF40105B50BD6768A6DC656E8692270C9ACF+++F8A6969" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "12BF9E3A-EBED-4340-9311-7C68B32771F7",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "09BAAF7628FCDA5833E4481A447125463668294D+++4CEA40F" : "..",
     "09BAAF7628FCDA5833E4481A447125463668294D+++E0BBB7A" : "..",
-    "09BAAF7628FCDA5833E4481A447125463668294D+++0B8A9A6" : "Originality\/Originality\/"
+    "09BAAF7628FCDA5833E4481A447125463668294D+++0B8A9A6" : "Originality\/Originality\/",
+    "0F5BFF40105B50BD6768A6DC656E8692270C9ACF+++F8A6969" : "Originality\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Originality",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -31,6 +34,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/suzee\/DesignForUnivercity.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09BAAF7628FCDA5833E4481A447125463668294D+++E0BBB7A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/suzee\/Basic.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0F5BFF40105B50BD6768A6DC656E8692270C9ACF+++F8A6969"
     }
   ]
 }
