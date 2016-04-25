@@ -1,0 +1,36 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "09BAAF7628FCDA5833E4481A447125463668294D+++4CEA40F" : 0,
+    "09BAAF7628FCDA5833E4481A447125463668294D+++E0BBB7A" : 0,
+    "09BAAF7628FCDA5833E4481A447125463668294D+++0B8A9A6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "12BF9E3A-EBED-4340-9311-7C68B32771F7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "09BAAF7628FCDA5833E4481A447125463668294D+++4CEA40F" : "..",
+    "09BAAF7628FCDA5833E4481A447125463668294D+++E0BBB7A" : "..",
+    "09BAAF7628FCDA5833E4481A447125463668294D+++0B8A9A6" : "Originality\/Originality\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Originality",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Originality.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/suzee\/DesignForUnivercity.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09BAAF7628FCDA5833E4481A447125463668294D+++0B8A9A6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/suzee\/ScrollingNavBar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09BAAF7628FCDA5833E4481A447125463668294D+++4CEA40F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/suzee\/DesignForUnivercity.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09BAAF7628FCDA5833E4481A447125463668294D+++E0BBB7A"
+    }
+  ]
+}
