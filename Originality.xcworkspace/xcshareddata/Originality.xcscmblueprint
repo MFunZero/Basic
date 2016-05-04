@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0F5BFF40105B50BD6768A6DC656E8692270C9ACF+++BB7EFDF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0F5BFF40105B50BD6768A6DC656E8692270C9ACF+++BB7EFDF" : 0,
+    "09BAAF7628FCDA5833E4481A447125463668294D+++8BF0013" : 0,
+    "09BAAF7628FCDA5833E4481A447125463668294D+++96DC532" : 0,
+    "09BAAF7628FCDA5833E4481A447125463668294D+++960507E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "738CFB98-719D-434F-A2D0-C68E2A448802",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0F5BFF40105B50BD6768A6DC656E8692270C9ACF+++BB7EFDF" : "Originality\/",
+    "09BAAF7628FCDA5833E4481A447125463668294D+++8BF0013" : "..",
+    "09BAAF7628FCDA5833E4481A447125463668294D+++96DC532" : "Originality\/Originality\/",
+    "09BAAF7628FCDA5833E4481A447125463668294D+++960507E" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Originality",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Originality.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/suzee\/DesignForUnivercity.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09BAAF7628FCDA5833E4481A447125463668294D+++8BF0013"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/suzee\/ScrollingNavBar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09BAAF7628FCDA5833E4481A447125463668294D+++960507E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/suzee\/DesignForUnivercity.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09BAAF7628FCDA5833E4481A447125463668294D+++96DC532"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/suzee\/Basic.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0F5BFF40105B50BD6768A6DC656E8692270C9ACF+++BB7EFDF"
+    }
+  ]
+}
