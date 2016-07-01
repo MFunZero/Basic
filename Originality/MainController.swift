@@ -70,18 +70,7 @@ class MainController: UITabBarController,UISearchBarDelegate,UIImagePickerContro
         setupViews()
         initViewControllers()
         
-        NSNotificationCenter.defaultCenter().addObserver(self, selector:#selector(MainController.getLocalNotification(_:)), name: "localNotification", object: nil)
     }
-    
-    func getLocalNotification(notification:NSNotification)
-    {
-        let obj = notification.object as! NSDictionary
-        if (obj.objectForKey("id") as? Int) == 1 {
-            self.presentViewController(AboutUseViewController(), animated: true, completion: nil)
-        }
-    }
-    
-    
     
     func cancelSearch(){
         MainController.searchBar.resignFirstResponder()

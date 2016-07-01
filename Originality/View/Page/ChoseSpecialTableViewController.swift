@@ -17,8 +17,7 @@ class ChoseSpecialTableViewController: UITableViewController {
         super.viewDidLoad()
 
         self.view.backgroundColor = bgColor
-
-        self.modalTransitionStyle = .FlipHorizontal
+        //self.tableView.backgroundColor = contentColor
         
         print("spscount:\(specials?.count)")
         
@@ -196,7 +195,84 @@ class ChoseSpecialTableViewController: UITableViewController {
                 })
                     }
                 })
-
+//            let collectionUserId = BmobUser.getCurrentUser().objectId
+//            
+//            let chosedSpecial = self.specials![indexPath.row-1]
+//            let chosedSpecialId = chosedSpecial.objectId
+//            
+//            let objSpecial = BmobObject(outDatatWithClassName: "special", objectId: chosedSpecialId)
+//            let objSinglePicture = BmobObject(outDatatWithClassName: "SinglePicture", objectId: self.singlePictureInfo.objectId)
+//            let user = BmobObject(outDatatWithClassName: "_User", objectId: collectionUserId)
+//          
+//            
+//            var collectionArray = self.singlePictureInfo?.collection == nil ? Array<NSDictionary>() : singlePictureInfo!.collection
+//            
+//            for cl in collectionArray {
+//                if cl.objectForKey("specialId") as? String == self.singlePictureInfo.objectId {
+//                    let tip = UIAlertView(title: nil, message: "已被此专辑收藏", delegate: self, cancelButtonTitle: "cancel")
+//                    tip.show()
+//                    return
+//                }
+//            }
+      
+//            let obj = BmobObject(className: "collection")
+//            obj.setObject(objSinglePicture, forKey: "spId")
+//            obj.setObject(objSpecial, forKey: "specialId")
+//            obj.setObject(user, forKey: "userId")
+//            
+//            obj.saveInBackgroundWithResultBlock({ (isSuccessful, error) -> Void in
+//                
+//                if isSuccessful {
+//                    NSLog("comment:\(obj)")
+//                    let commentId = obj.objectId
+//                    
+//      
+//                    
+//                    let dict = NSDictionary(objects: [collectionUserId,commentId,chosedSpecialId], forKeys: ["userId","collectionId","specialId"])
+//                    
+//                    collectionArray.insert(dict, atIndex: collectionArray.count)
+//                    
+//                    let comentObject = BmobObject(outDatatWithClassName: "SinglePicture", objectId: self.singlePictureInfo?.objectId)
+//                    comentObject.setObject(collectionArray, forKey: "collection")
+//                    comentObject.updateInBackgroundWithResultBlock({ (isSuccessful, error) -> Void in
+//                        if isSuccessful {
+                            print("收藏成功")
+                            //更新专辑中的主图
+//                            objSpecial.setObject(self.singlePictureInfo.url, forKey: "mainPicture")
+//                            objSpecial.updateInBackground()
+                
+                            
+//                            self.singlePictureInfo?.collection = collectionArray
+//                            self.singlePictureInfo?.collectionCount = collectionArray.count
+//                            
+//                            
+//                            let specialObject = BmobObject(outDatatWithClassName: "special", objectId: chosedSpecialId)
+//                            let number = chosedSpecial.pictureCount + 1
+//                            specialObject.setObject(number, forKey: "count")
+//                            specialObject.updateInBackground()
+//
+                
+//                            self.dismissViewControllerAnimated(true, completion: { () -> Void in
+//                                NSNotificationCenter.defaultCenter().postNotificationName("NotificationIdentifier", object: self.specials![indexPath.row - 1])
+//                              
+//                            })
+//                        }
+//                        else {
+//                            let tip = UIAlertView(title: nil, message: "收藏失败", delegate: self, cancelButtonTitle: "cancel")
+//                            tip.show()
+//                            print("error:\(error)")
+//                        }
+//                    })
+//                }
+//                else {
+//                    let tip = UIAlertView(title: nil, message: "收藏失败，请重试", delegate: self, cancelButtonTitle: "cancel")
+//                    tip.show()
+//                    print("collectionArray:\(error)")
+//                }
+//                
+//            })
+//            
+//        }
             
         }
        

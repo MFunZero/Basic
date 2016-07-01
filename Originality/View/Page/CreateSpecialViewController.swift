@@ -14,8 +14,7 @@ class CreateSpecialViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.modalTransitionStyle = .CrossDissolve
+
         
         config()
         // Do any additional setup after loading the view.

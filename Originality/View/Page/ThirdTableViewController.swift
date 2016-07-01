@@ -121,11 +121,6 @@ class ThirdTableViewController: UITableViewController {
         return 60
     }
     
-    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        if (self.navigationController!.topViewController!.isKindOfClass(MainController)) {
-            self.presentViewController(NotificationViewController(), animated: true, completion: nil)
-        }
-    }
     
     /*
     // Override to support conditional editing of the table view.

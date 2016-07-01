@@ -252,7 +252,7 @@ class FourthTableViewController: UITableViewController {
                     if (self.navigationController!.topViewController!.isKindOfClass(MainController)) {self.navigationController?.pushViewController(ClearCacheViewController(), animated: true)
                     }
                 case 2:
-                    if (self.navigationController!.topViewController!.isKindOfClass(MainController)) {self.presentViewController(AboutUseViewController(), animated: true ,completion: nil)
+                    if (self.navigationController!.topViewController!.isKindOfClass(MainController)) {self.navigationController?.pushViewController(AboutUseViewController(), animated: true)
                     }
 
                     break

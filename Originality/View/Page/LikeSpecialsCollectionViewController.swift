@@ -84,7 +84,7 @@ class LikeSpecialsCollectionViewController: UICollectionViewController {
         query.whereKey("specialId", equalTo: obj.objectId)
         query.countObjectsInBackgroundWithBlock({ (num, error) in
             if error != nil {
-                print("error:\(error)")
+                
             }
             else{
                 print("num:\(num)")
