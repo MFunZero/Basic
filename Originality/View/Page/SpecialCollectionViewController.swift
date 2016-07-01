@@ -70,6 +70,10 @@ class SpecialCollectionViewController: UICollectionViewController,UIGestureRecog
 //        return self.specials.count
         return self.specials.count
     }
+    
+
+    
+    
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! SpecialCollectionCellCollectionViewCell

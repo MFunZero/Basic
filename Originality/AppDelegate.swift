@@ -35,8 +35,57 @@ WXApiDelegate {
         
         self.window!.backgroundColor = UIColor.whiteColor()
       
+        if UIApplication.sharedApplication().currentUserNotificationSettings()?.types != UIUserNotificationType.None {
+            self.addLocationNotification()
+        }else{
+            let version = Float(UIDevice.currentDevice().systemVersion)
+            if (version >= 8.0) {
+            UIApplication.sharedApplication().registerUserNotificationSettings(UIUserNotificationSettings(forTypes: UIUserNotificationType.Badge , categories: nil))
+            }
+        }
+        
         return true
     }
+
+    func addLocationNotification(){
+        let notification = UILocalNotification()
+        notification.fireDate = NSDate(timeIntervalSinceNow: 10.0)
+        notification.repeatInterval = NSCalendarUnit.init(rawValue: UInt(2))
+        notification.repeatCalendar = NSCalendar.currentCalendar()
+        
+        notification.alertBody = "最近添加了诸多有趣的特性，是否立即体验？"
+        notification.applicationIconBadgeNumber = 2
+        notification.alertLaunchImage = "bg11"
+        notification.alertAction = "打开应用"
+        notification.soundName = ""
+        
+        notification.userInfo = ["id":1,"user":"current"]
+        
+        UIApplication.sharedApplication().scheduleLocalNotification(notification)
+//        UIApplicationDidBecomeActiveNotification
+    }
+    
+    func removeNotification(){
+        UIApplication.sharedApplication().cancelAllLocalNotifications()
+    }
+    
+    func application(application: UIApplication, didReceiveLocalNotification notification: UILocalNotification) {
+        let userInfo = notification.userInfo! as NSDictionary
+        let id = userInfo.objectForKey("id") as? Int
+        let state = UIApplication.sharedApplication().applicationState
+
+        if id == 1 && state != UIApplicationState.Active{
+            application.applicationIconBadgeNumber = notification.applicationIconBadgeNumber - 1
+            SVProgressHUD.showSuccessWithStatus("欢迎回来")
+        NSNotificationCenter.defaultCenter().postNotificationName("localNotification", object: ["id":1])
+            
+        }
+    }
+    
+    func application(application: UIApplication, didRegisterUserNotificationSettings notificationSettings: UIUserNotificationSettings) {
+        self.addLocationNotification()
+    }
+    
 
     //weixinApi override
     func application(application: UIApplication, handleOpenURL url: NSURL) -> Bool {
@@ -71,10 +120,13 @@ WXApiDelegate {
     func applicationDidEnterBackground(application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        application.applicationIconBadgeNumber = 3
     }
 
     func applicationWillEnterForeground(application: UIApplication) {
         // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+        application.applicationIconBadgeNumber = 2
+        //        notification.applicationIconBadgeNumber = 2
     }
 
     func applicationDidBecomeActive(application: UIApplication) {

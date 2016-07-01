@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C03068D1CEF0DB9005F5DF9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C03068C1CEF0DB9005F5DF9 /* BaseViewController.swift */; };
 		2C13D93B1CB9DBBA00CC3D29 /* RetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C13D93A1CB9DBBA00CC3D29 /* RetPasswordViewController.swift */; };
+		2C1A36821D0113BF0030B2EF /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A36801D0113BF0030B2EF /* NotificationViewController.swift */; };
+		2C1A36831D0113BF0030B2EF /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C1A36811D0113BF0030B2EF /* NotificationViewController.xib */; };
 		2C2C3E181CA95C9600D9B178 /* tmall_trade_courier_depraise_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2C3E161CA95C9600D9B178 /* tmall_trade_courier_depraise_selected@2x.png */; };
 		2C2C3E201CA95E5600D9B178 /* mytmall_setting_msg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2C3E1C1CA95E5600D9B178 /* mytmall_setting_msg@2x.png */; };
 		2C2C3E211CA95E5600D9B178 /* mytmall_setting_profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C2C3E1D1CA95E5600D9B178 /* mytmall_setting_profile@2x.png */; };
@@ -188,7 +191,6 @@
 		6BD29C571C41F44A0048F3E9 /* libicucore.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD29C561C41F44A0048F3E9 /* libicucore.A.dylib */; };
 		6BD29C5F1C42395F0048F3E9 /* BmobSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD29C5E1C42395F0048F3E9 /* BmobSDK.framework */; };
 		6BD29C6B1C44A1CD0048F3E9 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 6BD29C6A1C44A1CC0048F3E9 /* File */; };
-		6BD29C811C45ED780048F3E9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD29C801C45ED780048F3E9 /* BaseViewController.swift */; };
 		6BD29C861C45EDD70048F3E9 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD29C851C45EDD70048F3E9 /* UserInfo.swift */; };
 		6BD29C8A1C45EE790048F3E9 /* SinglePictureInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD29C891C45EE790048F3E9 /* SinglePictureInfo.swift */; };
 		6BD29C8E1C45F5130048F3E9 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD29C8D1C45F5130048F3E9 /* MainController.swift */; };
@@ -239,7 +241,10 @@
 
 /* Begin PBXFileReference section */
 		21FC938E8DC10D87FCCB412C /* Pods-Originality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Originality.release.xcconfig"; path = "Pods/Target Support Files/Pods-Originality/Pods-Originality.release.xcconfig"; sourceTree = "<group>"; };
+		2C03068C1CEF0DB9005F5DF9 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		2C13D93A1CB9DBBA00CC3D29 /* RetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetPasswordViewController.swift; sourceTree = "<group>"; };
+		2C1A36801D0113BF0030B2EF /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		2C1A36811D0113BF0030B2EF /* NotificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
 		2C2C3E161CA95C9600D9B178 /* tmall_trade_courier_depraise_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tmall_trade_courier_depraise_selected@2x.png"; sourceTree = "<group>"; };
 		2C2C3E1C1CA95E5600D9B178 /* mytmall_setting_msg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mytmall_setting_msg@2x.png"; sourceTree = "<group>"; };
 		2C2C3E1D1CA95E5600D9B178 /* mytmall_setting_profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mytmall_setting_profile@2x.png"; sourceTree = "<group>"; };
@@ -429,7 +434,6 @@
 		6BD29C581C41F5840048F3E9 /* Originality-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Originality-Bridging-Header.h"; sourceTree = "<group>"; };
 		6BD29C5E1C42395F0048F3E9 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
 		6BD29C6A1C44A1CC0048F3E9 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
-		6BD29C801C45ED780048F3E9 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		6BD29C851C45EDD70048F3E9 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		6BD29C891C45EE790048F3E9 /* SinglePictureInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SinglePictureInfo.swift; sourceTree = "<group>"; };
 		6BD29C8D1C45F5130048F3E9 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
@@ -788,7 +792,7 @@
 		6BD29C751C45EC1A0048F3E9 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6BD29C801C45ED780048F3E9 /* BaseViewController.swift */,
+				2C03068C1CEF0DB9005F5DF9 /* BaseViewController.swift */,
 				6BD29C7F1C45ED3F0048F3E9 /* Page */,
 				6BD29C7E1C45ED1C0048F3E9 /* Widget */,
 				6BD9FF7D1C5469F3005117B2 /* extension.swift */,
@@ -908,6 +912,8 @@
 				2C6D20F11CB9062F007713C1 /* SpecialsAboutCollectionTableViewController.swift */,
 				2C6D20F31CB90E4A007713C1 /* VoterListTableViewController.swift */,
 				2C6FFFAE1CC6659800DD08DC /* PictureViewController.swift */,
+				2C1A36801D0113BF0030B2EF /* NotificationViewController.swift */,
+				2C1A36811D0113BF0030B2EF /* NotificationViewController.xib */,
 			);
 			path = Page;
 			sourceTree = "<group>";
@@ -1167,6 +1173,7 @@
 				6B078CD51C69C61200E7250C /* img_boradcst.png in Resources */,
 				6BEC72641C4739D7008BEA16 /* bg10.jpg in Resources */,
 				6B2666B31C73620F00591F0F /* default_avatar@2x.png in Resources */,
+				2C1A36831D0113BF0030B2EF /* NotificationViewController.xib in Resources */,
 				6BEC72671C4739D7008BEA16 /* bg6.jpg in Resources */,
 				2C2C3E891CA963AE00D9B178 /* cm2_set_icn_share@3x.png in Resources */,
 				2C2C3E601CA963AE00D9B178 /* cm2_list_detail_icn_infor.png in Resources */,
@@ -1327,7 +1334,6 @@
 				6BE6C6541C7950C90081A6DA /* CommentTableViewController.swift in Sources */,
 				6B92BA7E1C65CE5D00FF4312 /* ThirdTableViewController.swift in Sources */,
 				2C6860E61CAD579A00599AC2 /* SpecialCollectionCellCollectionViewCell.swift in Sources */,
-				6BD29C811C45ED780048F3E9 /* BaseViewController.swift in Sources */,
 				6BEC72761C474389008BEA16 /* CollectionCell.swift in Sources */,
 				6BA74DD31C4CC5B700BDFF47 /* RefreshBaseView.swift in Sources */,
 				6B9E46A51C49E422000B14F9 /* Collection.swift in Sources */,
@@ -1337,6 +1343,7 @@
 				2C6860EA1CAD596300599AC2 /* SpecialCollectionViewController.swift in Sources */,
 				6BD29C8A1C45EE790048F3E9 /* SinglePictureInfo.swift in Sources */,
 				6B9519B91C623D86004FA1A6 /* EnterPageViewController.swift in Sources */,
+				2C03068D1CEF0DB9005F5DF9 /* BaseViewController.swift in Sources */,
 				6BA74DCD1C4CC41A00BDFF47 /* RefreshHeaderView.swift in Sources */,
 				2C6FFFAF1CC6659800DD08DC /* PictureViewController.swift in Sources */,
 				6B66A0A81C5358AF00DE8ED9 /* SinglePictureDetailController.swift in Sources */,
@@ -1360,6 +1367,7 @@
 				6BD29C001C41ED050048F3E9 /* AppDelegate.swift in Sources */,
 				6BA74DCB1C4CC3F100BDFF47 /* ExtensionScrollView.swift in Sources */,
 				6B0BCC461C5AEF1500C377A1 /* UserCollectionViewController.swift in Sources */,
+				2C1A36821D0113BF0030B2EF /* NotificationViewController.swift in Sources */,
 				2C6D20EE1CB8AB95007713C1 /* ClearCacheViewController.swift in Sources */,
 				2CE8A4121CAE903000705D40 /* ChangeNicknameViewController.swift in Sources */,
 				6BA74DD91C4E6CFB00BDFF47 /* SpecialInfo.swift in Sources */,
